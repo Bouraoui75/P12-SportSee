@@ -1,0 +1,24 @@
+.container {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+  .greetings,
+  .name {
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+
+  .name {
+    margin-left: 5px;
+    color: var(--red);
+  }
+
+  .message {
+    margin-top: 1rem;
+    font-size: var(--fs-normal);
+  }
+}
+
